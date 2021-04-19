@@ -11,7 +11,7 @@ header {
   margin: 0;
   padding: 0;
   background-color: #24252A;
-  position: -webkit-sticky;
+  position: fixed;
   top: 0;
   height: 80px;
 }
