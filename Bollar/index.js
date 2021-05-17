@@ -61,7 +61,7 @@ function connectToPeerId(id) {
     });
 
 
-    // Send messages
+    // Send messages - why is this here???
 
     turn = false;
 
