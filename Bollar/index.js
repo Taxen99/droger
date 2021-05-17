@@ -327,7 +327,7 @@ function animate() {
     requestAnimationFrame(animate);
     //c.clearRect(0, 0, innerWidth, innerHeight);
     c.fillStyle = "rgba(44, 130, 87, 0.5)"
-    c.fillRect(0, 0, innerWidth, innerHeight);
+    c.fillRect(0, 0, canvas.width, canvas.height);
 
     drawHole(0, canvas.height, 50);
     drawHole(canvas.width, 0, 50);
