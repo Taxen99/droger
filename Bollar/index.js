@@ -7,7 +7,7 @@ let mouseX = 0;
 let mouseY = 0;
 let dragging = false;
 let friction = 0.99;
-let turn;
+let turn = true;
 let points = {me: 0, peers: 0};
 
 let hostB = document.getElementById("host");
