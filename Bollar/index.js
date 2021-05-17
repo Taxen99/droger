@@ -111,7 +111,7 @@ window.addEventListener("click", function(e) {
 
 window.addEventListener("mousemove", e => {
   mouseX = e.clientX;
-  mouseY = e.clientY;
+  mouseY = e.clientY - canvas.offsetTop;
 })
 
 window.addEventListener("resize", function(){
